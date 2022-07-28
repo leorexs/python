@@ -78,7 +78,14 @@ diccionario_copia.update({
     'direccion': "Calle falsa 123"
 })
 
+# .fromkeys()
+# Crea un diccionario con las claves indicadas
+dic_key = dict.fromkeys(['nombre', 'apellido', 'edad'])
 
 
+dic_value = dict.fromkeys(['nombre', 'apellido', 'edad'], "")
 
-
+# .popitem()
+# Elimina un elemento del diccionario
+diccionario_copia.popitem()
+print(diccionario_copia)
