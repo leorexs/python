@@ -1,4 +1,4 @@
-from VehiculoABC import (
+from POO.examples.VehiculoABC import (
     Vehiculo,
 )
 
