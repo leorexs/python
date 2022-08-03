@@ -13,6 +13,8 @@ class MiClaseDefinida2:
         self.atributo_de_clase = valor
 
 
+
+
 class MiClaseDefinida3:
     __atributo_de_clase = "clase"
 
